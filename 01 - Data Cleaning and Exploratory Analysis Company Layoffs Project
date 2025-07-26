@@ -1,5 +1,12 @@
 -- Data Cleaning
 
+-- Skills used:
+-- 1. Removing Duplicates
+-- 2. Standardising the Data
+-- 3. Analysing Null Values or Blank Values
+-- 4. Removing Any Unnecessary Columns and Rows
+
+
 SELECT *
 FROM layoffs;
 
@@ -197,5 +204,8 @@ FROM layoffs_staging2;
 
 ALTER TABLE layoffs_staging2
 DROP COLUMN row_num;
+
+
+-- The 'layoffs' table has been cleaned
 
 
